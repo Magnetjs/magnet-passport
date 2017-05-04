@@ -1,0 +1,24 @@
+{
+  "generator-magnetjs": {
+    "promptValues": {
+      "npmModule": "passport",
+      "moduleName": "magnet-passport",
+      "name": "Kieve Chua",
+      "email": "kievechua@gmail.com",
+      "website": "https://github.com/kievechua",
+      "license": "MIT",
+      "language": "ts",
+      "includeFly": true,
+      "fromDist": true
+    },
+    "npmModule": "passport",
+    "moduleName": "magnet-passport",
+    "name": "Kieve Chua",
+    "email": "kievechua@gmail.com",
+    "website": "https://github.com/kievechua",
+    "license": "MIT",
+    "language": "ts",
+    "includeFly": true,
+    "fromDist": true
+  }
+}
