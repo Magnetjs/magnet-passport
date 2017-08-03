@@ -1,7 +1,7 @@
 import { Module } from 'magnet-core/module'
 import * as passport from 'koa-passport'
 
-export default class Passport extends Module {
+export default class MagnetPassport extends Module {
   init () {
     this.moduleName = 'passport'
     this.defaultConfig = __dirname
