@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "koa-passport": "^3.0.0",
-    "magnet-core": "^4.0.1"
+    "magnet-core": "^3.9.0"
   },
   "devDependencies": {
     "fly": "^2.0.6",
