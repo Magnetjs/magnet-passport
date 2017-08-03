@@ -10,9 +10,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const module_1 = require("magnet-core/module");
 const passport = require("koa-passport");
-class Passport extends module_1.Module {
-    get moduleName() { return 'passport'; }
-    get defaultConfig() { return __dirname; }
+class MagnetPassport extends module_1.Module {
+    init() {
+        this.moduleName = 'passport';
+        this.defaultConfig = __dirname;
+    }
     setup() {
         return __awaiter(this, void 0, void 0, function* () {
             this.app.koa.use(passport.initialize());
@@ -23,5 +25,5 @@ class Passport extends module_1.Module {
         });
     }
 }
-exports.default = Passport;
+exports.default = MagnetPassport;
 //# sourceMappingURL=koa.js.map
