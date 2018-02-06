@@ -20,7 +20,12 @@ class MagnetPassport extends module_1.Module {
             this.app.koa.use(passport.initialize());
             this.insert(passport);
             for (const strategy of this.config.strategies) {
-                this.app.passport.use(strategy);
+                if (strategy && strategy.key) {
+                    this.app.passport.use(strategy.key, strategy.strategy);
+                }
+                else {
+                    this.app.passport.use(strategy);
+                }
             }
         });
     }

@@ -1,6 +1,6 @@
 {
   "name": "magnet-passport",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Magnet adapter for passport",
   "keywords": [
     "magnet",
@@ -20,7 +20,7 @@
     "dist": "npm run build && cd dist && npm publish"
   },
   "dependencies": {
-    "koa-passport": "^3.0.0",
+    "koa-passport": "^4.0.1",
     "magnet-core": "^4.0.1"
   },
   "devDependencies": {
