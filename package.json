@@ -20,7 +20,7 @@
     "dist": "npm run build && cd dist && npm publish"
   },
   "dependencies": {
-    "koa-passport": "^4.0.1",
+    "koa-passport": "^5.0.0",
     "magnet-core": "^4.0.1"
   },
   "devDependencies": {
